@@ -1,16 +1,23 @@
-apiVersion: bitnami.com/v1alpha1
-kind: SealedSecret
-metadata:
-  creationTimestamp: null
-  name: paypal-cert
-  namespace: default
-spec:
-  encryptedData:
-    paypal.crt: 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
-  template:
-    data: null
-    metadata:
-      creationTimestamp: null
-      name: paypal-cert
-      namespace: default
-    type: Opaque
+{
+  "kind": "SealedSecret",
+  "apiVersion": "bitnami.com/v1alpha1",
+  "metadata": {
+    "name": "paypal-cert",
+    "namespace": "git-secrets",
+    "creationTimestamp": null
+  },
+  "spec": {
+    "template": {
+      "metadata": {
+        "name": "paypal-cert",
+        "namespace": "git-secrets",
+        "creationTimestamp": null
+      },
+      "type": "Opaque",
+      "data": null
+    },
+    "encryptedData": {
+      "paypal.crt": "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"
+    }
+  }
+}
